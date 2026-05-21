@@ -3,7 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 from collections import Counter
-from pathlib import Path
+from pathlib import Path, PureWindowsPath
 from typing import Any
 
 import joblib
@@ -65,6 +65,8 @@ def _resolve_path(raw_path: str | None, fallback_dirs: list[Path]) -> Path:
         return path
 
     basename = path.name
+    if "\\" in raw_path:
+        basename = PureWindowsPath(raw_path).name
     for directory in fallback_dirs:
         candidate = PROJECT_ROOT / directory / basename
         if candidate.exists():
