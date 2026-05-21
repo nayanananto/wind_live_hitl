@@ -1,0 +1,70 @@
+name: Fetch AviationWeather METAR
+
+on:
+  workflow_dispatch:
+    inputs:
+      station:
+        description: "ICAO station id"
+        required: false
+        default: "KBOS"
+      hours:
+        description: "Recent METAR hours to request"
+        required: false
+        default: "12"
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-aviationweather-metar
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    env:
+      STATION: ${{ github.event.inputs.station || 'KBOS' }}
+      HOURS: ${{ github.event.inputs.hours || '12' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Fetch latest METAR wind observation
+        run: |
+          python scripts/fetch_aviationweather_metar.py \
+            --station "$STATION" \
+            --hours "$HOURS" \
+            --output_dir data/live/aviationweather_metar
+
+      - name: Build live semantic wind state
+        run: |
+          python scripts/build_live_semantic_state.py \
+            --live_csv "data/live/aviationweather_metar/$STATION/metar_live.csv" \
+            --metadata data/metadata/kbos_5min_phase_semantic_build.json \
+            --station "$STATION" \
+            --live_window_rows 6 \
+            --top_k 5 \
+            --phase_horizon_steps 1 \
+            --output_dir data/live/semantic_states
+
+      - name: Commit updated live data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/live/aviationweather_metar data/live/semantic_states
+          if git diff --cached --quiet; then
+            echo "No new METAR observations to commit."
+          else
+            git commit -m "Update live AviationWeather METAR data"
+            git push
+          fi
