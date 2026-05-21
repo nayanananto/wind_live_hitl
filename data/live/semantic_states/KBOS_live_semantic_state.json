@@ -1,7 +1,7 @@
 {
   "station": "KBOS",
-  "source_csv": "data\\live\\aviationweather_metar\\KBOS\\metar_live.csv",
-  "metadata_path": "data\\metadata\\kbos_5min_phase_semantic_build.json",
+  "source_csv": "data/live/aviationweather_metar/KBOS/metar_live.csv",
+  "metadata_path": "data/metadata/kbos_5min_phase_semantic_build.json",
   "semantic_run_name": "kbos_5min_phase",
   "live_window": {
     "live_window_rows_requested": 6,
@@ -18,7 +18,7 @@
     "window_rows": 6,
     "time_span_hours": 5.0,
     "token_id": 4,
-    "token_distance": 4.353820282409109,
+    "token_distance": 4.35382028240911,
     "regime_name": "moderate-flow stable gusty regime",
     "short_explanation": "The cluster shows stronger short-term variability, suggesting bursts or uneven flow.",
     "meteorological_interpretation": "Likely a common operational regime with moderate winds and manageable variability."
@@ -52,7 +52,7 @@
     "v100_std": 0.9200689151337211,
     "wind_gust_10m_ms_mean": null,
     "wind_gust_10m_ms_std": null,
-    "hour_sin_mean": -0.8951682068889268,
+    "hour_sin_mean": -0.8951682068889267,
     "hour_sin_std": 0.09837741274975934,
     "hour_cos_mean": -0.11785113019775816,
     "hour_cos_std": 0.41845773639286216,
@@ -72,8 +72,8 @@
     "embedding_03": 2.053751423373271,
     "embedding_04": 1.0291669533666343,
     "embedding_05": 2.0972467067893708,
-    "embedding_06": -0.8713783506485226,
-    "embedding_07": -1.2360587461917247
+    "embedding_06": -0.8713783506485224,
+    "embedding_07": -1.236058746191725
   },
   "similar_historical_windows": [
     {
@@ -134,7 +134,7 @@
       "gust_factor": 2.007668177065179,
       "direction_abs_change_mean_deg": 6.611661369572858,
       "rank": 4,
-      "retrieval_distance": 0.19734910729201094
+      "retrieval_distance": 0.19734910729201116
     },
     {
       "window_id": "window_049032_049079",
