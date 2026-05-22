@@ -1,7 +1,7 @@
 {
   "station": "KBOS",
-  "source_csv": "data/live/aviationweather_metar/KBOS/metar_live.csv",
-  "metadata_path": "data/metadata/kbos_5min_phase_semantic_build.json",
+  "source_csv": "data\\live\\aviationweather_metar\\KBOS\\metar_live.csv",
+  "metadata_path": "data\\metadata\\kbos_5min_phase_semantic_build.json",
   "semantic_run_name": "kbos_5min_phase",
   "live_window": {
     "live_window_rows_used": 6,
@@ -12,7 +12,7 @@
     "live_step_rows": 1
   },
   "live_history": {
-    "history_path": "data/live/semantic_states/KBOS_live_semantic_history.csv",
+    "history_path": "data\\live\\semantic_states\\KBOS_live_semantic_history.csv",
     "generated_windows_this_run": 26,
     "stored_live_windows": 26,
     "history_length_requested": 4,
@@ -32,9 +32,9 @@
     "time_span_hours": 5.0,
     "token_id": 4,
     "token_distance": 4.071705943109349,
-    "regime_name": "moderate-flow stable gusty regime",
-    "short_explanation": "The cluster shows stronger short-term variability, suggesting bursts or uneven flow.",
-    "meteorological_interpretation": "Likely a common operational regime with moderate winds and manageable variability."
+    "regime_name": "upper-moderate steady aligned regime",
+    "short_explanation": "Token 4 has mean speed 5.43 m/s, speed std 0.74, max ramp 1.15, gust factor 1.77, and directional change 4.0 degrees.",
+    "meteorological_interpretation": "This label is a compact description of the learned wind-state cluster, not an observed raw-data label."
   },
   "features": {
     "missing_fraction": 0.1111111111111111,
@@ -91,7 +91,7 @@
       "window_start": "2024-06-16T12:35:00",
       "window_end": "2024-06-16T16:30:00",
       "token_id": 4,
-      "regime_name": "moderate-flow stable gusty regime",
+      "regime_name": "upper-moderate steady aligned regime",
       "wind_speed_mean": 4.666435783333333,
       "wind_speed_std": 0.451173343531515,
       "wind_speed_min": 3.601108,
@@ -106,7 +106,7 @@
       "window_start": "2024-04-26T12:20:00",
       "window_end": "2024-04-26T16:15:00",
       "token_id": 4,
-      "regime_name": "moderate-flow stable gusty regime",
+      "regime_name": "upper-moderate steady aligned regime",
       "wind_speed_mean": 5.47239805,
       "wind_speed_std": 0.7074481838835671,
       "wind_speed_min": 3.9097744,
@@ -121,7 +121,7 @@
       "window_start": "2024-02-07T14:35:00",
       "window_end": "2024-02-07T18:30:00",
       "token_id": 4,
-      "regime_name": "moderate-flow stable gusty regime",
+      "regime_name": "upper-moderate steady aligned regime",
       "wind_speed_mean": 5.165875166666667,
       "wind_speed_std": 0.6268897635247834,
       "wind_speed_min": 3.601108,
@@ -136,7 +136,7 @@
       "window_start": "2024-05-09T16:05:00",
       "window_end": "2024-05-09T20:00:00",
       "token_id": 6,
-      "regime_name": "calm persistent regime",
+      "regime_name": "calm gust-amplified turning regime",
       "wind_speed_mean": 5.601009050000001,
       "wind_speed_std": 0.5395150971718006,
       "wind_speed_min": 3.8068856,
@@ -151,7 +151,7 @@
       "window_start": "2024-05-09T17:05:00",
       "window_end": "2024-05-09T21:00:00",
       "token_id": 4,
-      "regime_name": "moderate-flow stable gusty regime",
+      "regime_name": "upper-moderate steady aligned regime",
       "wind_speed_mean": 5.753198733333334,
       "wind_speed_std": 0.6424831412830654,
       "wind_speed_min": 3.8068856,
@@ -168,7 +168,7 @@
       {
         "rank": 1,
         "token_id": 4,
-        "regime_name": "moderate-flow stable gusty regime",
+        "regime_name": "upper-moderate steady aligned regime",
         "probability": 0.764,
         "count": 340,
         "support": 445,
@@ -177,7 +177,7 @@
       {
         "rank": 2,
         "token_id": 7,
-        "regime_name": "moderate-flow gusty regime",
+        "regime_name": "upper-moderate variable aligned regime token-7 subtype",
         "probability": 0.1236,
         "count": 55,
         "support": 445,
@@ -186,7 +186,7 @@
       {
         "rank": 3,
         "token_id": 2,
-        "regime_name": "moderate-flow gusty regime",
+        "regime_name": "upper-moderate ramping directional regime",
         "probability": 0.0427,
         "count": 19,
         "support": 445,
@@ -195,7 +195,7 @@
       {
         "rank": 4,
         "token_id": 1,
-        "regime_name": "calm stable regime",
+        "regime_name": "calm gust-amplified directional regime",
         "probability": 0.0315,
         "count": 14,
         "support": 445,
@@ -204,7 +204,7 @@
       {
         "rank": 5,
         "token_id": 5,
-        "regime_name": "moderate-flow stable gusty regime",
+        "regime_name": "lower-moderate steady aligned regime",
         "probability": 0.027,
         "count": 12,
         "support": 445,
