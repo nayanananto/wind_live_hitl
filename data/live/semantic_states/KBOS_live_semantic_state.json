@@ -1,14 +1,27 @@
 {
   "station": "KBOS",
-  "source_csv": "data/live/aviationweather_metar/KBOS/metar_live.csv",
-  "metadata_path": "data/metadata/kbos_5min_phase_semantic_build.json",
+  "source_csv": "data\\live\\aviationweather_metar\\KBOS\\metar_live.csv",
+  "metadata_path": "data\\metadata\\kbos_5min_phase_semantic_build.json",
   "semantic_run_name": "kbos_5min_phase",
   "live_window": {
-    "live_window_rows_requested": 6,
     "live_window_rows_used": 6,
     "live_window_start": "2026-05-22T02:54:00+00:00",
     "live_window_end": "2026-05-22T07:54:00+00:00",
-    "live_window_span_hours": 5.0
+    "live_window_span_hours": 5.0,
+    "live_window_rows_requested": 6,
+    "live_step_rows": 1
+  },
+  "live_history": {
+    "history_path": "data\\live\\semantic_states\\KBOS_live_semantic_history.csv",
+    "generated_windows_this_run": 17,
+    "stored_live_windows": 17,
+    "history_length_requested": 4,
+    "live_token_sequence": [
+      7,
+      5,
+      5,
+      5
+    ]
   },
   "adapter_warning": "AviationWeather METAR is usually hourly, while the historical semantic build may be based on 48 higher-frequency rows. Schema is matched, but sampling frequency can differ.",
   "live_state": {
@@ -18,7 +31,7 @@
     "window_rows": 6,
     "time_span_hours": 5.0,
     "token_id": 5,
-    "token_distance": 2.9174468674414684,
+    "token_distance": 2.917446867441468,
     "regime_name": "moderate-flow stable gusty regime",
     "short_explanation": "The cluster shows stronger short-term variability, suggesting bursts or uneven flow.",
     "meteorological_interpretation": "Likely a common operational regime with moderate winds and manageable variability."
@@ -53,7 +66,7 @@
     "wind_gust_10m_ms_mean": null,
     "wind_gust_10m_ms_std": null,
     "hour_sin_mean": 0.8341639729248539,
-    "hour_sin_std": 0.17844149434748516,
+    "hour_sin_std": 0.17844149434748513,
     "hour_cos_mean": 0.3455220308284977,
     "hour_cos_std": 0.39108007566406516,
     "dow_sin_mean": -0.433883739117558,
@@ -61,18 +74,15 @@
     "dow_cos_mean": -0.9009688679024191,
     "dow_cos_std": 0.0
   },
-  "missing_features_filled_by_encoder": [
-    "wind_gust_10m_ms_mean",
-    "wind_gust_10m_ms_std"
-  ],
+  "missing_features_filled_by_encoder": [],
   "embedding": {
     "embedding_00": -1.6784035597697666,
-    "embedding_01": -1.8363300218973393,
+    "embedding_01": -1.836330021897339,
     "embedding_02": -1.162178234228271,
     "embedding_03": 0.5359748193399678,
-    "embedding_04": 1.226848055629883,
-    "embedding_05": 1.179460470025123,
-    "embedding_06": 0.3832023854090968,
+    "embedding_04": 1.2268480556298829,
+    "embedding_05": 1.1794604700251228,
+    "embedding_06": 0.383202385409097,
     "embedding_07": 1.6810567539335117
   },
   "similar_historical_windows": [
@@ -89,7 +99,7 @@
       "gust_factor": 1.7730870712401057,
       "direction_abs_change_mean_deg": 4.098386828960582,
       "rank": 1,
-      "retrieval_distance": 0.011569111403050059
+      "retrieval_distance": 0.01156911140305017
     },
     {
       "window_id": "window_008652_008699",
@@ -119,7 +129,7 @@
       "gust_factor": 1.7712177121771218,
       "direction_abs_change_mean_deg": 3.6688092859464487,
       "rank": 3,
-      "retrieval_distance": 0.028307876063771942
+      "retrieval_distance": 0.028307876063772053
     },
     {
       "window_id": "window_069648_069695",
@@ -134,7 +144,7 @@
       "gust_factor": 1.5733736762481088,
       "direction_abs_change_mean_deg": 2.6127845410730632,
       "rank": 4,
-      "retrieval_distance": 0.04928220620565227
+      "retrieval_distance": 0.04928220620565249
     },
     {
       "window_id": "window_069924_069971",
@@ -159,49 +169,33 @@
         "rank": 1,
         "token_id": 5,
         "regime_name": "moderate-flow stable gusty regime",
-        "probability": 0.7828,
-        "count": 1222,
-        "support": 1561,
-        "transition_source": "live_token_markov"
+        "probability": 0.9298,
+        "count": 53,
+        "support": 57,
+        "transition_source": "live_exact_sequence"
       },
       {
         "rank": 2,
-        "token_id": 1,
-        "regime_name": "calm stable regime",
-        "probability": 0.0826,
-        "count": 129,
-        "support": 1561,
-        "transition_source": "live_token_markov"
+        "token_id": 0,
+        "regime_name": "moderate-flow gusty regime",
+        "probability": 0.0351,
+        "count": 2,
+        "support": 57,
+        "transition_source": "live_exact_sequence"
       },
       {
         "rank": 3,
-        "token_id": 0,
-        "regime_name": "moderate-flow gusty regime",
-        "probability": 0.0615,
-        "count": 96,
-        "support": 1561,
-        "transition_source": "live_token_markov"
-      },
-      {
-        "rank": 4,
-        "token_id": 4,
-        "regime_name": "moderate-flow stable gusty regime",
-        "probability": 0.0384,
-        "count": 60,
-        "support": 1561,
-        "transition_source": "live_token_markov"
-      },
-      {
-        "rank": 5,
-        "token_id": 6,
-        "regime_name": "calm persistent regime",
-        "probability": 0.0141,
-        "count": 22,
-        "support": 1561,
-        "transition_source": "live_token_markov"
+        "token_id": 1,
+        "regime_name": "calm stable regime",
+        "probability": 0.0351,
+        "count": 2,
+        "support": 57,
+        "transition_source": "live_exact_sequence"
       }
     ],
-    "support": 1561,
-    "transition_source": "live_token_markov"
+    "support": 57,
+    "minimum_support": 5,
+    "support_is_sufficient": true,
+    "transition_source": "live_exact_sequence"
   }
 }

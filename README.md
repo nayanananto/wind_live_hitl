@@ -17,6 +17,10 @@ python scripts\build_live_semantic_state.py `
   --metadata data\metadata\kbos_5min_phase_semantic_build.json `
   --station KBOS `
   --live_window_rows 6 `
+  --live_step_rows 1 `
+  --history_length 4 `
+  --min_support 5 `
+  --backfill `
   --top_k 5 `
   --phase_horizon_steps 1 `
   --output_dir data\live\semantic_states
@@ -27,6 +31,7 @@ python scripts\build_live_semantic_state.py `
 - `data/live/aviationweather_metar/KBOS/metar_live.csv`: raw accumulated METAR observations.
 - `data/live/semantic_states/KBOS_live_semantic_state.json`: HITL-ready live semantic state with explanation fields, similar historical windows, and phase prediction.
 - `data/live/semantic_states/KBOS_live_semantic_state.csv`: flattened latest live semantic state.
+- `data/live/semantic_states/KBOS_live_semantic_history.csv`: accumulated rolling live semantic windows used for sequence-based phase prediction.
 
 ## GitHub Action
 

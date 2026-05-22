@@ -65,8 +65,8 @@ def prepare_semantic_frame(df: pd.DataFrame, time_col: str = "datetime") -> pd.D
         if column == time_col:
             continue
         if frame[column].dtype == object:
-            converted = pd.to_numeric(frame[column], errors="ignore")
-            frame[column] = converted
+            converted = pd.to_numeric(frame[column], errors="coerce")
+            if converted.notna().sum() > 0:
+                frame[column] = converted
 
     return frame
-

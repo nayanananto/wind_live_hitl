@@ -58,6 +58,10 @@ jobs:
             --metadata data/metadata/kbos_5min_phase_semantic_build.json \
             --station "$STATION" \
             --live_window_rows 6 \
+            --live_step_rows 1 \
+            --history_length 4 \
+            --min_support 5 \
+            --backfill \
             --top_k 5 \
             --phase_horizon_steps 1 \
             --output_dir data/live/semantic_states
