@@ -31,7 +31,7 @@
     "window_rows": 6,
     "time_span_hours": 5.0,
     "token_id": 0,
-    "token_distance": 2.680389878884594,
+    "token_distance": 2.6803898788845943,
     "regime_name": "upper-moderate variable aligned regime",
     "short_explanation": "Token 0 has mean speed 5.80 m/s, speed std 0.78, max ramp 1.66, gust factor 2.02, and directional change 5.3 degrees.",
     "meteorological_interpretation": "This label is a compact description of the learned wind-state cluster, not an observed raw-data label."
@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": 1.9460373155132995,
-    "embedding_01": 0.14609261434038082,
-    "embedding_02": -1.9331001530635374,
-    "embedding_03": -0.9753435509067244,
-    "embedding_04": -0.38018429260256253,
-    "embedding_05": 1.7603945654034665,
-    "embedding_06": -0.1329928817718041,
-    "embedding_07": -0.6933962894012036
+    "embedding_00": 1.9460373155132993,
+    "embedding_01": 0.14609261434038084,
+    "embedding_02": -1.9331001530635377,
+    "embedding_03": -0.9753435509067249,
+    "embedding_04": -0.3801842926025626,
+    "embedding_05": 1.760394565403467,
+    "embedding_06": -0.13299288177180402,
+    "embedding_07": -0.6933962894012035
   },
   "similar_historical_windows": [
     {
@@ -144,7 +144,7 @@
       "gust_factor": 2.4046242774566475,
       "direction_abs_change_mean_deg": 7.769736200827164,
       "rank": 4,
-      "retrieval_distance": 0.04160420543821597
+      "retrieval_distance": 0.04160420543821586
     },
     {
       "window_id": "window_085344_085391",
@@ -159,7 +159,7 @@
       "gust_factor": 2.0786719595813783,
       "direction_abs_change_mean_deg": 8.750880256181107,
       "rank": 5,
-      "retrieval_distance": 0.043569880652460924
+      "retrieval_distance": 0.043569880652461035
     }
   ],
   "phase_prediction": {
