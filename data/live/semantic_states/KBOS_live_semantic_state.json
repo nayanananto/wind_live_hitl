@@ -5,70 +5,70 @@
   "semantic_run_name": "kbos_5min_phase",
   "live_window": {
     "live_window_rows_used": 6,
-    "live_window_start": "2026-07-07T21:12:00+00:00",
-    "live_window_end": "2026-07-07T22:15:00+00:00",
-    "live_window_span_hours": 1.05,
+    "live_window_start": "2026-07-07T21:28:00+00:00",
+    "live_window_end": "2026-07-07T22:54:00+00:00",
+    "live_window_span_hours": 1.4333333333333333,
     "live_window_rows_requested": 6,
     "live_step_rows": 1
   },
   "live_history": {
     "history_path": "data/live/semantic_states/KBOS_live_semantic_history.csv",
-    "generated_windows_this_run": 1268,
-    "stored_live_windows": 1268,
+    "generated_windows_this_run": 1269,
+    "stored_live_windows": 1269,
     "history_length_requested": 4,
     "live_token_sequence": [
       3,
-      3,
       4,
-      4
+      4,
+      3
     ]
   },
   "adapter_warning": "AviationWeather METAR is usually hourly, while the historical semantic build may be based on 48 higher-frequency rows. Schema is matched, but sampling frequency can differ.",
   "live_state": {
-    "window_id": "live_KBOS_202607072112_202607072215",
-    "window_start": "2026-07-07T21:12:00+00:00",
-    "window_end": "2026-07-07T22:15:00+00:00",
+    "window_id": "live_KBOS_202607072128_202607072254",
+    "window_start": "2026-07-07T21:28:00+00:00",
+    "window_end": "2026-07-07T22:54:00+00:00",
     "window_rows": 6,
-    "time_span_hours": 1.05,
-    "token_id": 4,
-    "token_distance": 5.326747075617262,
-    "regime_name": "upper-moderate steady aligned regime",
-    "short_explanation": "Token 4 has mean speed 5.43 m/s, speed std 0.74, max ramp 1.15, gust factor 1.77, and directional change 4.0 degrees.",
+    "time_span_hours": 1.4333333333333333,
+    "token_id": 3,
+    "token_distance": 5.184461703283232,
+    "regime_name": "strong ramping aligned regime",
+    "short_explanation": "Token 3 has mean speed 9.25 m/s, speed std 1.19, max ramp 2.52, gust factor 1.95, and directional change 4.0 degrees.",
     "meteorological_interpretation": "This label is a compact description of the learned wind-state cluster, not an observed raw-data label."
   },
   "features": {
-    "missing_fraction": 0.05555555555555555,
-    "wind_speed_mean": 8.745548,
-    "wind_speed_std": 0.6641443481854428,
+    "missing_fraction": 0.037037037037037035,
+    "wind_speed_mean": 8.831288666666666,
+    "wind_speed_std": 0.6912633541776165,
     "wind_speed_min": 7.71666,
     "wind_speed_max": 9.774436,
     "wind_speed_p10": 7.973882,
     "wind_speed_p90": 9.517214,
     "wind_speed_range": 2.0577759999999996,
-    "ramp_abs_mean": 0.8231104000000002,
+    "ramp_abs_mean": 0.8231103999999998,
     "ramp_abs_max": 2.0577759999999996,
     "calm_fraction": 0.0,
     "strong_fraction": 0.0,
-    "gust_factor": 1.5294117647058825,
-    "direction_mean_deg": 21.666666666666668,
-    "direction_span_deg": 10.0,
-    "direction_abs_change_mean_deg": 3.999999999999999,
-    "direction_abs_change_max_deg": 9.999999999999998,
-    "direction_net_turn_deg": 0.0,
-    "vector_speed_mean": 8.745548000000001,
-    "vector_speed_std": 0.6641443481854425,
-    "vector_resultant_strength": 0.9977896874547718,
-    "uv_covariance": 0.10102312337458708,
-    "u100_mean": 8.104433946979647,
-    "u100_std": 0.586683880589079,
-    "v100_mean": 3.234968948582424,
-    "v100_std": 0.6592616025061865,
-    "wind_gust_10m_ms_mean": 13.032581333333333,
-    "wind_gust_10m_ms_std": 0.24251122729382116,
-    "hour_sin_mean": -0.6380711874576986,
-    "hour_sin_std": 0.09763107293781736,
-    "hour_cos_mean": 0.7600796553858444,
-    "hour_cos_std": 0.07491495713052965,
+    "gust_factor": 1.5145631067961167,
+    "direction_mean_deg": 25.0,
+    "direction_span_deg": 20.0,
+    "direction_abs_change_mean_deg": 6.0,
+    "direction_abs_change_max_deg": 20.0,
+    "direction_net_turn_deg": 10.000000000000002,
+    "vector_speed_mean": 8.831288666666667,
+    "vector_speed_std": 0.6912633541776162,
+    "vector_resultant_strength": 0.9909121566570201,
+    "uv_covariance": -0.2596552359570822,
+    "u100_mean": 7.917007029412519,
+    "u100_std": 0.6908139950803178,
+    "v100_mean": 3.728478039078251,
+    "v100_std": 1.1881631922295544,
+    "wind_gust_10m_ms_mean": 13.118322,
+    "wind_gust_10m_ms_std": 0.2572219999999996,
+    "hour_sin_mean": -0.6035533905932741,
+    "hour_sin_std": 0.10355339059327363,
+    "hour_cos_mean": 0.7865660924854928,
+    "hour_cos_std": 0.07945931129894551,
     "dow_sin_mean": 0.7818314824680298,
     "dow_sin_std": 0.0,
     "dow_cos_mean": 0.6234898018587335,
@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": 4.252251542655689,
-    "embedding_01": -3.235300619300437,
-    "embedding_02": -0.055190528018333664,
-    "embedding_03": 1.8394079512090238,
-    "embedding_04": 3.026163023736205,
-    "embedding_05": 1.0289024678625562,
-    "embedding_06": 0.19282442292581675,
-    "embedding_07": 0.7077518991598765
+    "embedding_00": 4.275531984780945,
+    "embedding_01": -2.6361902489553115,
+    "embedding_02": -0.06043154256814695,
+    "embedding_03": 2.017899618532263,
+    "embedding_04": 3.2805847751837813,
+    "embedding_05": 1.059838546671893,
+    "embedding_06": -0.12179092073257673,
+    "embedding_07": 0.7116679772014857
   },
   "similar_historical_windows": [
     {
@@ -99,7 +99,7 @@
       "gust_factor": 1.5388016803006856,
       "direction_abs_change_mean_deg": 3.821642943228723,
       "rank": 1,
-      "retrieval_distance": 0.015185528849451124
+      "retrieval_distance": 0.011368596554223509
     },
     {
       "window_id": "window_022824_022871",
@@ -114,7 +114,7 @@
       "gust_factor": 1.5330396475770929,
       "direction_abs_change_mean_deg": 3.4133102900869,
       "rank": 2,
-      "retrieval_distance": 0.025273990493295595
+      "retrieval_distance": 0.018591115257004298
     },
     {
       "window_id": "window_022848_022895",
@@ -129,22 +129,22 @@
       "gust_factor": 1.5760869565217392,
       "direction_abs_change_mean_deg": 3.4768805762377046,
       "rank": 3,
-      "retrieval_distance": 0.030149311632166498
+      "retrieval_distance": 0.02147431873408623
     },
     {
-      "window_id": "window_023088_023135",
-      "window_start": "2024-03-26T15:05:00",
-      "window_end": "2024-03-26T19:00:00",
-      "token_id": 4,
-      "regime_name": "upper-moderate steady aligned regime",
-      "wind_speed_mean": 8.5397704,
-      "wind_speed_std": 0.6717385895397704,
-      "wind_speed_min": 7.4079936,
-      "wind_speed_max": 10.0831024,
-      "gust_factor": 1.6265060240963856,
-      "direction_abs_change_mean_deg": 3.1237031988504884,
+      "window_id": "window_022812_022859",
+      "window_start": "2024-03-25T16:05:00",
+      "window_end": "2024-03-25T20:00:00",
+      "token_id": 3,
+      "regime_name": "strong ramping aligned regime",
+      "wind_speed_mean": 9.907334033333331,
+      "wind_speed_std": 0.6101308490778888,
+      "wind_speed_min": 8.5397704,
+      "wind_speed_max": 11.1119904,
+      "gust_factor": 1.609692773691043,
+      "direction_abs_change_mean_deg": 3.251518570671139,
       "rank": 4,
-      "retrieval_distance": 0.03506352914741295
+      "retrieval_distance": 0.030844775847591266
     },
     {
       "window_id": "window_022860_022907",
@@ -159,7 +159,7 @@
       "gust_factor": 1.5697266993693064,
       "direction_abs_change_mean_deg": 3.655801183996726,
       "rank": 5,
-      "retrieval_distance": 0.0399981592771661
+      "retrieval_distance": 0.03422089506267589
     }
   ],
   "phase_prediction": {
@@ -167,51 +167,15 @@
     "candidate_next_phases": [
       {
         "rank": 1,
-        "token_id": 4,
-        "regime_name": "upper-moderate steady aligned regime",
-        "probability": 0.79,
-        "count": 568,
-        "support": 719,
-        "transition_source": "live_suffix_2_tokens"
-      },
-      {
-        "rank": 2,
-        "token_id": 7,
-        "regime_name": "upper-moderate variable aligned regime token-7 subtype",
-        "probability": 0.0918,
-        "count": 66,
-        "support": 719,
-        "transition_source": "live_suffix_2_tokens"
-      },
-      {
-        "rank": 3,
-        "token_id": 2,
-        "regime_name": "upper-moderate ramping directional regime",
-        "probability": 0.0445,
-        "count": 32,
-        "support": 719,
-        "transition_source": "live_suffix_2_tokens"
-      },
-      {
-        "rank": 4,
-        "token_id": 5,
-        "regime_name": "lower-moderate steady aligned regime",
-        "probability": 0.0292,
-        "count": 21,
-        "support": 719,
-        "transition_source": "live_suffix_2_tokens"
-      },
-      {
-        "rank": 5,
-        "token_id": 1,
-        "regime_name": "calm gust-amplified directional regime",
-        "probability": 0.0264,
-        "count": 19,
-        "support": 719,
+        "token_id": 3,
+        "regime_name": "strong ramping aligned regime",
+        "probability": 1.0,
+        "count": 7,
+        "support": 7,
         "transition_source": "live_suffix_2_tokens"
       }
     ],
-    "support": 719,
+    "support": 7,
     "minimum_support": 5,
     "support_is_sufficient": true,
     "transition_source": "live_suffix_2_tokens"

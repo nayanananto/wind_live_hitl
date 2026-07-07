@@ -1,15 +1,15 @@
 {
-  "fetched_at_utc": "2026-07-07T22:52:10.014512+00:00",
-  "observation_time_utc": "2026-07-07T22:15:00+00:00",
+  "fetched_at_utc": "2026-07-07T23:48:09.864172+00:00",
+  "observation_time_utc": "2026-07-07T22:54:00+00:00",
   "station_id": "KBOS",
-  "wind_direction": 20,
-  "wind_speed_kt": 19.0,
-  "wind_speed": 9.774436,
+  "wind_direction": 40,
+  "wind_speed_kt": 18.0,
+  "wind_speed": 9.259992,
   "wind_gust_kt": 26.0,
   "wind_gust_10m_ms": 13.375544,
   "temperature_c": 17.8,
-  "dewpoint_c": 17.2,
-  "altimeter_hpa": 1017.0,
-  "raw_metar": "SPECI KBOS 072215Z 02019G26KT 1 1/2SM R04R/3000V5500FT +RA BR BKN009 BKN012 OVC028 18/17 A3003 RMK AO2 PK WND 02026/2208 P0013 T01780172 $",
+  "dewpoint_c": 16.7,
+  "altimeter_hpa": 1017.4,
+  "raw_metar": "METAR KBOS 072254Z 04018G26KT 1 1/2SM R04R/6000VP6000FT +RA BR BKN007 OVC024 18/17 A3004 RMK AO2 PK WND 03029/2216 SLP170 P0050 T01780167 $",
   "source": "aviationweather_metar"
 }
