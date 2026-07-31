@@ -31,7 +31,7 @@
     "window_rows": 6,
     "time_span_hours": 4.0,
     "token_id": 4,
-    "token_distance": 4.4652813820876265,
+    "token_distance": 4.465281382087625,
     "regime_name": "upper-moderate steady aligned regime",
     "short_explanation": "Token 4 has mean speed 5.43 m/s, speed std 0.74, max ramp 1.15, gust factor 1.77, and directional change 4.0 degrees.",
     "meteorological_interpretation": "This label is a compact description of the learned wind-state cluster, not an observed raw-data label."
@@ -76,12 +76,12 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": -0.387090696492429,
-    "embedding_01": 1.3741528390472595,
+    "embedding_00": -0.38709069649242905,
+    "embedding_01": 1.3741528390472588,
     "embedding_02": -1.7636245315022347,
     "embedding_03": 1.040484128536646,
-    "embedding_04": 2.0907854936377785,
-    "embedding_05": 1.4345462614197624,
+    "embedding_04": 2.0907854936377777,
+    "embedding_05": 1.4345462614197617,
     "embedding_06": -0.8571836930792597,
     "embedding_07": -0.8503418666372663
   },
@@ -99,7 +99,7 @@
       "gust_factor": 1.6989567809239938,
       "direction_abs_change_mean_deg": 8.17225378283324,
       "rank": 1,
-      "retrieval_distance": 0.16010273707758094
+      "retrieval_distance": 0.16010273707758105
     },
     {
       "window_id": "window_033240_033287",
@@ -129,7 +129,7 @@
       "gust_factor": 2.2982798368505053,
       "direction_abs_change_mean_deg": 13.593607187212909,
       "rank": 3,
-      "retrieval_distance": 0.17437150502409227
+      "retrieval_distance": 0.17437150502409215
     },
     {
       "window_id": "window_026676_026723",
@@ -144,7 +144,7 @@
       "gust_factor": 2.2748815165876777,
       "direction_abs_change_mean_deg": 10.845528534430736,
       "rank": 4,
-      "retrieval_distance": 0.1807347255787326
+      "retrieval_distance": 0.1807347255787327
     },
     {
       "window_id": "window_033228_033275",
@@ -159,7 +159,7 @@
       "gust_factor": 1.9497098646034816,
       "direction_abs_change_mean_deg": 10.097234930190847,
       "rank": 5,
-      "retrieval_distance": 0.18891798192841902
+      "retrieval_distance": 0.18891798192841924
     }
   ],
   "phase_prediction": {
