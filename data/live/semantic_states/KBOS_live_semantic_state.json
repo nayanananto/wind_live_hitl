@@ -5,33 +5,33 @@
   "semantic_run_name": "kbos_5min_phase",
   "live_window": {
     "live_window_rows_used": 6,
-    "live_window_start": "2026-08-01T16:54:00+00:00",
-    "live_window_end": "2026-08-01T21:14:00+00:00",
-    "live_window_span_hours": 4.333333333333333,
+    "live_window_start": "2026-08-01T17:54:00+00:00",
+    "live_window_end": "2026-08-01T21:54:00+00:00",
+    "live_window_span_hours": 4.0,
     "live_window_rows_requested": 6,
     "live_step_rows": 1
   },
   "live_history": {
     "history_path": "data/live/semantic_states/KBOS_live_semantic_history.csv",
-    "generated_windows_this_run": 1936,
-    "stored_live_windows": 1936,
+    "generated_windows_this_run": 1937,
+    "stored_live_windows": 1937,
     "history_length_requested": 4,
     "live_token_sequence": [
+      4,
+      4,
       2,
-      4,
-      4,
       2
     ]
   },
   "adapter_warning": "AviationWeather METAR is usually hourly, while the historical semantic build may be based on 48 higher-frequency rows. Schema is matched, but sampling frequency can differ.",
   "live_state": {
-    "window_id": "live_KBOS_202608011654_202608012114",
-    "window_start": "2026-08-01T16:54:00+00:00",
-    "window_end": "2026-08-01T21:14:00+00:00",
+    "window_id": "live_KBOS_202608011754_202608012154",
+    "window_start": "2026-08-01T17:54:00+00:00",
+    "window_end": "2026-08-01T21:54:00+00:00",
     "window_rows": 6,
-    "time_span_hours": 4.333333333333333,
+    "time_span_hours": 4.0,
     "token_id": 2,
-    "token_distance": 5.042533370145511,
+    "token_distance": 4.82046199251817,
     "regime_name": "upper-moderate ramping directional regime",
     "short_explanation": "Token 2 has mean speed 5.21 m/s, speed std 1.61, max ramp 2.38, gust factor 2.46, and directional change 7.8 degrees.",
     "meteorological_interpretation": "This label is a compact description of the learned wind-state cluster, not an observed raw-data label."
@@ -50,25 +50,25 @@
     "calm_fraction": 0.0,
     "strong_fraction": 0.0,
     "gust_factor": 1.135135135135135,
-    "direction_mean_deg": 130.0,
-    "direction_span_deg": 80.0,
-    "direction_abs_change_mean_deg": 20.0,
+    "direction_mean_deg": 145.0,
+    "direction_span_deg": 90.0,
+    "direction_abs_change_mean_deg": 19.999999999999996,
     "direction_abs_change_max_deg": 50.00000000000002,
     "direction_net_turn_deg": 80.00000000000001,
-    "vector_speed_mean": 6.344809333333333,
+    "vector_speed_mean": 6.344809333333334,
     "vector_speed_std": 1.2832487951210223,
-    "vector_resultant_strength": 0.8699304532251622,
-    "uv_covariance": 4.213886366620735,
-    "u100_mean": -3.385762190341341,
-    "u100_std": 1.7254582871381776,
-    "v100_mean": 4.359124655536344,
-    "v100_std": 2.9087408399219203,
+    "vector_resultant_strength": 0.7881408652587192,
+    "uv_covariance": 6.120699570640655,
+    "u100_mean": -4.051945066996212,
+    "u100_std": 1.9320251781336897,
+    "v100_mean": 2.9304908662250084,
+    "v100_std": 3.6283020980353444,
     "wind_gust_10m_ms_mean": null,
     "wind_gust_10m_ms_std": null,
-    "hour_sin_mean": -0.8951682068889268,
-    "hour_sin_std": 0.09837741274975915,
-    "hour_cos_mean": 0.11785113019775774,
-    "hour_cos_std": 0.4184577363928621,
+    "hour_sin_mean": -0.8686817697892785,
+    "hour_sin_std": 0.12136535804410414,
+    "hour_cos_mean": 0.3190355937288491,
+    "hour_cos_std": 0.35899682817077117,
     "dow_sin_mean": -0.9749279121818236,
     "dow_sin_std": 0.0,
     "dow_cos_mean": -0.2225209339563146,
@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": 3.4594937103478585,
-    "embedding_01": 3.2427639345481754,
-    "embedding_02": -1.91123078364057,
-    "embedding_03": 1.5739273309187254,
-    "embedding_04": 0.7217340926834062,
-    "embedding_05": 3.3047305544007965,
-    "embedding_06": -1.6678452194512736,
-    "embedding_07": 0.5906082479131536
+    "embedding_00": 3.5496166006720293,
+    "embedding_01": 3.7678155113610425,
+    "embedding_02": -1.4770779089323518,
+    "embedding_03": 1.4173636156950677,
+    "embedding_04": 0.7149615411664214,
+    "embedding_05": 3.229343939845539,
+    "embedding_06": -1.7925090850314078,
+    "embedding_07": 0.7160950839513236
   },
   "similar_historical_windows": [
     {
@@ -99,7 +99,7 @@
       "gust_factor": 2.0301581463773446,
       "direction_abs_change_mean_deg": 9.16657196758681,
       "rank": 1,
-      "retrieval_distance": 0.06912578420566629
+      "retrieval_distance": 0.05165278725688738
     },
     {
       "window_id": "window_057612_057659",
@@ -114,7 +114,7 @@
       "gust_factor": 2.0124223602484475,
       "direction_abs_change_mean_deg": 7.302398644437928,
       "rank": 2,
-      "retrieval_distance": 0.08873011762312222
+      "retrieval_distance": 0.07606394642120673
     },
     {
       "window_id": "window_051900_051947",
@@ -129,7 +129,7 @@
       "gust_factor": 2.282370153621068,
       "direction_abs_change_mean_deg": 8.530248893882897,
       "rank": 3,
-      "retrieval_distance": 0.1092974596709112
+      "retrieval_distance": 0.09856638947959873
     },
     {
       "window_id": "window_002532_002579",
@@ -144,7 +144,7 @@
       "gust_factor": 1.854392859521748,
       "direction_abs_change_mean_deg": 5.209027684893157,
       "rank": 4,
-      "retrieval_distance": 0.1199708892024729
+      "retrieval_distance": 0.10163596863990754
     },
     {
       "window_id": "window_059592_059639",
@@ -159,7 +159,7 @@
       "gust_factor": 2.259709690074539,
       "direction_abs_change_mean_deg": 12.628601525127838,
       "rank": 5,
-      "retrieval_distance": 0.12433583534682624
+      "retrieval_distance": 0.10250127574607215
     }
   ],
   "phase_prediction": {
@@ -169,51 +169,51 @@
         "rank": 1,
         "token_id": 2,
         "regime_name": "upper-moderate ramping directional regime",
-        "probability": 0.625,
-        "count": 20,
-        "support": 32,
-        "transition_source": "live_suffix_3_tokens"
+        "probability": 0.65,
+        "count": 13,
+        "support": 20,
+        "transition_source": "live_exact_sequence"
       },
       {
         "rank": 2,
-        "token_id": 7,
-        "regime_name": "upper-moderate variable aligned regime token-7 subtype",
-        "probability": 0.1562,
-        "count": 5,
-        "support": 32,
-        "transition_source": "live_suffix_3_tokens"
+        "token_id": 3,
+        "regime_name": "strong ramping aligned regime",
+        "probability": 0.1,
+        "count": 2,
+        "support": 20,
+        "transition_source": "live_exact_sequence"
       },
       {
         "rank": 3,
-        "token_id": 4,
-        "regime_name": "upper-moderate steady aligned regime",
-        "probability": 0.0625,
+        "token_id": 6,
+        "regime_name": "calm gust-amplified turning regime",
+        "probability": 0.1,
         "count": 2,
-        "support": 32,
-        "transition_source": "live_suffix_3_tokens"
+        "support": 20,
+        "transition_source": "live_exact_sequence"
       },
       {
         "rank": 4,
-        "token_id": 6,
-        "regime_name": "calm gust-amplified turning regime",
-        "probability": 0.0625,
-        "count": 2,
-        "support": 32,
-        "transition_source": "live_suffix_3_tokens"
+        "token_id": 1,
+        "regime_name": "calm gust-amplified directional regime",
+        "probability": 0.05,
+        "count": 1,
+        "support": 20,
+        "transition_source": "live_exact_sequence"
       },
       {
         "rank": 5,
-        "token_id": 3,
-        "regime_name": "strong ramping aligned regime",
-        "probability": 0.0312,
+        "token_id": 7,
+        "regime_name": "upper-moderate variable aligned regime token-7 subtype",
+        "probability": 0.05,
         "count": 1,
-        "support": 32,
-        "transition_source": "live_suffix_3_tokens"
+        "support": 20,
+        "transition_source": "live_exact_sequence"
       }
     ],
-    "support": 32,
+    "support": 20,
     "minimum_support": 5,
     "support_is_sufficient": true,
-    "transition_source": "live_suffix_3_tokens"
+    "transition_source": "live_exact_sequence"
   }
 }
