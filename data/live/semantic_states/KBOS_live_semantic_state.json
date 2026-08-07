@@ -31,7 +31,7 @@
     "window_rows": 6,
     "time_span_hours": 5.0,
     "token_id": 5,
-    "token_distance": 4.214829479797893,
+    "token_distance": 4.214829479797892,
     "regime_name": "lower-moderate steady aligned regime",
     "short_explanation": "Token 5 has mean speed 3.61 m/s, speed std 0.57, max ramp 1.01, gust factor 1.95, and directional change 4.7 degrees.",
     "meteorological_interpretation": "This label is a compact description of the learned wind-state cluster, not an observed raw-data label."
@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": -2.3737598208312454,
-    "embedding_01": -0.6234508940020771,
-    "embedding_02": -0.8169259543820403,
-    "embedding_03": -1.518769922969913,
-    "embedding_04": 2.346897810888427,
-    "embedding_05": -1.0412492835468257,
+    "embedding_00": -2.373759820831245,
+    "embedding_01": -0.6234508940020772,
+    "embedding_02": -0.8169259543820402,
+    "embedding_03": -1.5187699229699128,
+    "embedding_04": 2.3468978108884264,
+    "embedding_05": -1.0412492835468259,
     "embedding_06": -1.7991963538246887,
-    "embedding_07": -0.7962770708834664
+    "embedding_07": -0.7962770708834663
   },
   "similar_historical_windows": [
     {
@@ -114,7 +114,7 @@
       "gust_factor": 1.9062748212867355,
       "direction_abs_change_mean_deg": 11.980936595321635,
       "rank": 2,
-      "retrieval_distance": 0.10057955653823225
+      "retrieval_distance": 0.10057955653823203
     },
     {
       "window_id": "window_000348_000395",
@@ -129,7 +129,7 @@
       "gust_factor": 1.929260450160772,
       "direction_abs_change_mean_deg": 9.907943239673084,
       "rank": 3,
-      "retrieval_distance": 0.10751009932441491
+      "retrieval_distance": 0.1075100993244148
     },
     {
       "window_id": "window_000336_000383",
@@ -159,7 +159,7 @@
       "gust_factor": 2.0245398773006134,
       "direction_abs_change_mean_deg": 12.35959927454695,
       "rank": 5,
-      "retrieval_distance": 0.116348580566906
+      "retrieval_distance": 0.11634858056690611
     }
   ],
   "phase_prediction": {
