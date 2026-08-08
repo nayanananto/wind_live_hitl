@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": -1.4971705054440334,
-    "embedding_01": -0.8110815265335138,
-    "embedding_02": -0.6617666797228839,
-    "embedding_03": -1.8624783974272303,
-    "embedding_04": 1.1305886361933952,
-    "embedding_05": -0.9126179292926507,
-    "embedding_06": -1.076195398010293,
-    "embedding_07": -0.16319389086336952
+    "embedding_00": -1.4971705054440332,
+    "embedding_01": -0.8110815265335137,
+    "embedding_02": -0.661766679722884,
+    "embedding_03": -1.8624783974272308,
+    "embedding_04": 1.130588636193395,
+    "embedding_05": -0.9126179292926505,
+    "embedding_06": -1.0761953980102927,
+    "embedding_07": -0.16319389086336955
   },
   "similar_historical_windows": [
     {
