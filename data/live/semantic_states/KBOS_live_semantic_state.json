@@ -31,7 +31,7 @@
     "window_rows": 6,
     "time_span_hours": 5.0,
     "token_id": 2,
-    "token_distance": 6.8914574610321395,
+    "token_distance": 6.89145746103214,
     "regime_name": "upper-moderate ramping directional regime",
     "short_explanation": "Token 2 has mean speed 5.21 m/s, speed std 1.61, max ramp 2.38, gust factor 2.46, and directional change 7.8 degrees.",
     "meteorological_interpretation": "This label is a compact description of the learned wind-state cluster, not an observed raw-data label."
@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": 1.0457591511853555,
-    "embedding_01": 4.280036751614688,
-    "embedding_02": 1.1557358776552455,
-    "embedding_03": -4.093691413769459,
+    "embedding_00": 1.045759151185356,
+    "embedding_01": 4.2800367516146895,
+    "embedding_02": 1.1557358776552444,
+    "embedding_03": -4.09369141376946,
     "embedding_04": 2.8833156494599237,
-    "embedding_05": 2.443996878332511,
-    "embedding_06": 0.19412266283337415,
-    "embedding_07": -0.8032683076559903
+    "embedding_05": 2.4439968783325114,
+    "embedding_06": 0.19412266283337412,
+    "embedding_07": -0.8032683076559904
   },
   "similar_historical_windows": [
     {
@@ -99,7 +99,7 @@
       "gust_factor": 2.463117382937781,
       "direction_abs_change_mean_deg": 13.170858760429097,
       "rank": 1,
-      "retrieval_distance": 0.14064449377304955
+      "retrieval_distance": 0.14064449377304944
     },
     {
       "window_id": "window_061560_061607",
@@ -114,7 +114,7 @@
       "gust_factor": 2.697892271662763,
       "direction_abs_change_mean_deg": 12.689172042931272,
       "rank": 2,
-      "retrieval_distance": 0.1536927304682011
+      "retrieval_distance": 0.15369273046820087
     },
     {
       "window_id": "window_051948_051995",
@@ -129,7 +129,7 @@
       "gust_factor": 3.027975863960505,
       "direction_abs_change_mean_deg": 12.947715454641658,
       "rank": 3,
-      "retrieval_distance": 0.16400850738623762
+      "retrieval_distance": 0.16400850738623773
     },
     {
       "window_id": "window_059940_059987",
@@ -144,7 +144,7 @@
       "gust_factor": 2.2153846153846155,
       "direction_abs_change_mean_deg": 10.071438596679435,
       "rank": 4,
-      "retrieval_distance": 0.16701006749005864
+      "retrieval_distance": 0.16701006749005876
     },
     {
       "window_id": "window_029016_029063",
@@ -159,7 +159,7 @@
       "gust_factor": 2.228412256267409,
       "direction_abs_change_mean_deg": 11.161584422645111,
       "rank": 5,
-      "retrieval_distance": 0.17737942173615984
+      "retrieval_distance": 0.17737942173615995
     }
   ],
   "phase_prediction": {
