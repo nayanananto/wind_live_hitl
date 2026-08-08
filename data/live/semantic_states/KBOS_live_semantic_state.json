@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": -0.9455650397169996,
-    "embedding_01": -0.50385151366369,
-    "embedding_02": -0.5030929243729273,
-    "embedding_03": -2.3475592138840726,
+    "embedding_00": -0.9455650397169999,
+    "embedding_01": -0.5038515136636899,
+    "embedding_02": -0.503092924372927,
+    "embedding_03": -2.347559213884072,
     "embedding_04": 1.5189354888985807,
-    "embedding_05": -1.2717370456656107,
+    "embedding_05": -1.2717370456656112,
     "embedding_06": -1.163330304396168,
-    "embedding_07": -0.12378273193011091
+    "embedding_07": -0.12378273193011104
   },
   "similar_historical_windows": [
     {
@@ -99,7 +99,7 @@
       "gust_factor": 2.0146490000822976,
       "direction_abs_change_mean_deg": 9.330010673602796,
       "rank": 1,
-      "retrieval_distance": 0.03848669750705003
+      "retrieval_distance": 0.038486697507049805
     },
     {
       "window_id": "window_028908_028955",
@@ -129,7 +129,7 @@
       "gust_factor": 2.036775106082036,
       "direction_abs_change_mean_deg": 11.715501805997633,
       "rank": 3,
-      "retrieval_distance": 0.051111130902861235
+      "retrieval_distance": 0.05111113090286101
     },
     {
       "window_id": "window_059832_059879",
@@ -159,7 +159,7 @@
       "gust_factor": 2.021525503041647,
       "direction_abs_change_mean_deg": 7.3279839595711636,
       "rank": 5,
-      "retrieval_distance": 0.08650295284891596
+      "retrieval_distance": 0.08650295284891585
     }
   ],
   "phase_prediction": {
