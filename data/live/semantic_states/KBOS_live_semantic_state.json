@@ -129,7 +129,7 @@
       "gust_factor": 2.363367799113737,
       "direction_abs_change_mean_deg": 10.810576385052466,
       "rank": 3,
-      "retrieval_distance": 0.085124136036131
+      "retrieval_distance": 0.08512413603613089
     },
     {
       "window_id": "window_046752_046799",
@@ -144,7 +144,7 @@
       "gust_factor": 2.4598930481283423,
       "direction_abs_change_mean_deg": 10.53239282954436,
       "rank": 4,
-      "retrieval_distance": 0.08809897751031148
+      "retrieval_distance": 0.08809897751031137
     },
     {
       "window_id": "window_046164_046211",
