@@ -114,7 +114,7 @@
       "gust_factor": 2.6330759853718004,
       "direction_abs_change_mean_deg": 20.60346390827995,
       "rank": 2,
-      "retrieval_distance": 0.06198874102945651
+      "retrieval_distance": 0.061988741029456285
     },
     {
       "window_id": "window_039300_039347",
@@ -129,7 +129,7 @@
       "gust_factor": 2.693137678031938,
       "direction_abs_change_mean_deg": 18.498852986614946,
       "rank": 3,
-      "retrieval_distance": 0.0636061652855241
+      "retrieval_distance": 0.06360616528552376
     },
     {
       "window_id": "window_030648_030695",
@@ -159,7 +159,7 @@
       "gust_factor": 2.689075630252101,
       "direction_abs_change_mean_deg": 19.12887700732808,
       "rank": 5,
-      "retrieval_distance": 0.06558865777182055
+      "retrieval_distance": 0.06558865777182021
     }
   ],
   "phase_prediction": {
