@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": 0.12983039752071884,
-    "embedding_01": 0.5706431512238531,
-    "embedding_02": -2.3810711665812554,
+    "embedding_00": 0.12983039752071865,
+    "embedding_01": 0.5706431512238532,
+    "embedding_02": -2.381071166581256,
     "embedding_03": -1.2429010678825678,
     "embedding_04": 0.9464619502603284,
     "embedding_05": 2.615439352572609,
     "embedding_06": -0.9826901727665415,
-    "embedding_07": -0.5525677356292049
+    "embedding_07": -0.5525677356292048
   },
   "similar_historical_windows": [
     {
@@ -99,7 +99,7 @@
       "gust_factor": 2.1417947446703027,
       "direction_abs_change_mean_deg": 12.258173619493022,
       "rank": 1,
-      "retrieval_distance": 0.04176328581474298
+      "retrieval_distance": 0.04176328581474309
     },
     {
       "window_id": "window_061824_061871",
@@ -114,7 +114,7 @@
       "gust_factor": 2.145730889584265,
       "direction_abs_change_mean_deg": 11.596172041234274,
       "rank": 2,
-      "retrieval_distance": 0.041843240455860076
+      "retrieval_distance": 0.04184324045586041
     },
     {
       "window_id": "window_067164_067211",
@@ -129,7 +129,7 @@
       "gust_factor": 2.2653382275825904,
       "direction_abs_change_mean_deg": 15.414253228058824,
       "rank": 3,
-      "retrieval_distance": 0.04257324113076022
+      "retrieval_distance": 0.04257324113076033
     },
     {
       "window_id": "window_067152_067199",
@@ -144,7 +144,7 @@
       "gust_factor": 2.232558139534884,
       "direction_abs_change_mean_deg": 16.857470477368555,
       "rank": 4,
-      "retrieval_distance": 0.04556735070526918
+      "retrieval_distance": 0.045567350705269405
     },
     {
       "window_id": "window_086196_086243",
@@ -159,7 +159,7 @@
       "gust_factor": 1.9503386004514671,
       "direction_abs_change_mean_deg": 12.364101203180766,
       "rank": 5,
-      "retrieval_distance": 0.05338677468482733
+      "retrieval_distance": 0.05338677468482722
     }
   ],
   "phase_prediction": {
