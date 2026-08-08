@@ -31,7 +31,7 @@
     "window_rows": 6,
     "time_span_hours": 5.0,
     "token_id": 0,
-    "token_distance": 3.837362416596961,
+    "token_distance": 3.8373624165969615,
     "regime_name": "upper-moderate variable aligned regime",
     "short_explanation": "Token 0 has mean speed 5.80 m/s, speed std 0.78, max ramp 1.66, gust factor 2.02, and directional change 5.3 degrees.",
     "meteorological_interpretation": "This label is a compact description of the learned wind-state cluster, not an observed raw-data label."
@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": 0.5933139657940815,
-    "embedding_01": 0.21042134146188995,
+    "embedding_00": 0.5933139657940814,
+    "embedding_01": 0.21042134146188998,
     "embedding_02": -2.552876972711888,
-    "embedding_03": -1.2693057846174916,
-    "embedding_04": 1.110694718396502,
-    "embedding_05": 2.5921040805823954,
+    "embedding_03": -1.2693057846174913,
+    "embedding_04": 1.1106947183965021,
+    "embedding_05": 2.592104080582396,
     "embedding_06": -1.125728482706475,
-    "embedding_07": -0.4489017757083366
+    "embedding_07": -0.4489017757083364
   },
   "similar_historical_windows": [
     {
