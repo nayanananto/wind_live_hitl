@@ -31,7 +31,7 @@
     "window_rows": 6,
     "time_span_hours": 5.0,
     "token_id": 0,
-    "token_distance": 4.484777588495534,
+    "token_distance": 4.484777588495535,
     "regime_name": "upper-moderate variable aligned regime",
     "short_explanation": "Token 0 has mean speed 5.80 m/s, speed std 0.78, max ramp 1.66, gust factor 2.02, and directional change 5.3 degrees.",
     "meteorological_interpretation": "This label is a compact description of the learned wind-state cluster, not an observed raw-data label."
@@ -76,14 +76,14 @@
   },
   "missing_features_filled_by_encoder": [],
   "embedding": {
-    "embedding_00": -0.9549419927292788,
-    "embedding_01": 1.9198876557105349,
-    "embedding_02": -1.913543069855564,
-    "embedding_03": -2.6830894956468856,
+    "embedding_00": -0.9549419927292796,
+    "embedding_01": 1.919887655710535,
+    "embedding_02": -1.9135430698555638,
+    "embedding_03": -2.6830894956468865,
     "embedding_04": 1.5115339295155992,
     "embedding_05": 0.5076150335423809,
-    "embedding_06": -0.00544510145455554,
-    "embedding_07": -0.26194878435263064
+    "embedding_06": -0.005445101454555385,
+    "embedding_07": -0.2619487843526306
   },
   "similar_historical_windows": [
     {
@@ -99,7 +99,7 @@
       "gust_factor": 2.333637192342753,
       "direction_abs_change_mean_deg": 14.758376674917145,
       "rank": 1,
-      "retrieval_distance": 0.07175188819129275
+      "retrieval_distance": 0.07175188819129252
     },
     {
       "window_id": "window_056724_056771",
@@ -114,7 +114,7 @@
       "gust_factor": 2.3255418614534635,
       "direction_abs_change_mean_deg": 14.6048156775188,
       "rank": 2,
-      "retrieval_distance": 0.09047379080134832
+      "retrieval_distance": 0.09047379080134799
     },
     {
       "window_id": "window_039636_039683",
@@ -129,7 +129,7 @@
       "gust_factor": 3.0334035510081248,
       "direction_abs_change_mean_deg": 15.95593968722307,
       "rank": 3,
-      "retrieval_distance": 0.1030859005337037
+      "retrieval_distance": 0.10308590053370348
     },
     {
       "window_id": "window_062076_062123",
@@ -144,7 +144,7 @@
       "gust_factor": 2.320085929108485,
       "direction_abs_change_mean_deg": 12.055276609819863,
       "rank": 4,
-      "retrieval_distance": 0.10309153424934714
+      "retrieval_distance": 0.10309153424934692
     },
     {
       "window_id": "window_067116_067163",
